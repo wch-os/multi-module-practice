@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../../../../../공부/nettee/프로젝트/멀티모듈 테스크 기타/multi-module-practice" />
+            <option value="$PROJECT_DIR$/../../../../../공부/nettee/프로젝트/멀티모듈 테스크 기타/multi-module-practice/board" />
+            <option value="$PROJECT_DIR$/../../../../../공부/nettee/프로젝트/멀티모듈 테스크 기타/multi-module-practice/common" />
+            <option value="$PROJECT_DIR$/../../../../../공부/nettee/프로젝트/멀티모듈 테스크 기타/multi-module-practice/core" />
+            <option value="$PROJECT_DIR$/../../../../../공부/nettee/프로젝트/멀티모듈 테스크 기타/multi-module-practice/monolithic" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/monolithic" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../../../../../공부/nettee/프로젝트/멀티모듈 테스크 기타/multi-module-practice/monolithic" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>
