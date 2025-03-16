@@ -10,16 +10,10 @@
           <set>
             <option value="$PROJECT_DIR$/../../../../../공부/nettee/프로젝트/멀티모듈 테스크 기타/multi-module-practice" />
             <option value="$PROJECT_DIR$/../../../../../공부/nettee/프로젝트/멀티모듈 테스크 기타/multi-module-practice/board" />
+            <option value="$PROJECT_DIR$/../../../../../공부/nettee/프로젝트/멀티모듈 테스크 기타/multi-module-practice/board/api" />
+            <option value="$PROJECT_DIR$/../../../../../공부/nettee/프로젝트/멀티모듈 테스크 기타/multi-module-practice/board/application" />
             <option value="$PROJECT_DIR$/../../../../../공부/nettee/프로젝트/멀티모듈 테스크 기타/multi-module-practice/common" />
             <option value="$PROJECT_DIR$/../../../../../공부/nettee/프로젝트/멀티모듈 테스크 기타/multi-module-practice/core" />
-            <option value="$PROJECT_DIR$/../../../../../공부/nettee/프로젝트/멀티모듈 테스크 기타/multi-module-practice/monolithic" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/monolithic" />
-        <option name="modules">
-          <set>
             <option value="$PROJECT_DIR$/../../../../../공부/nettee/프로젝트/멀티모듈 테스크 기타/multi-module-practice/monolithic" />
           </set>
         </option>
