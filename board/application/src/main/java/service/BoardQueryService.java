@@ -1,7 +1,6 @@
 package service;
 
 import static exception.BoardQueryErrorCode.BOARD_NOT_FOUND;
-import static me.nettee.board.application.exception.BoardQueryErrorCode.BOARD_NOT_FOUND;
 
 import domain.type.BoardStatus;
 import java.util.Set;

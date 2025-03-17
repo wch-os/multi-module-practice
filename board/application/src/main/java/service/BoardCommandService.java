@@ -1,6 +1,5 @@
 package service;
 
-
 import static exception.BoardCommandErrorCode.BOARD_NOT_FOUND;
 import static exception.BoardCommandErrorCode.DEFAULT;
 

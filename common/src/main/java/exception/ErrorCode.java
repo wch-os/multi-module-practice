@@ -1,3 +1,5 @@
+package exception;
+
 import java.util.Map;
 import java.util.function.Supplier;
 import org.springframework.http.HttpStatus;
