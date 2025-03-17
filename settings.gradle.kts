@@ -7,3 +7,4 @@ include(
 )
 
 apply(from ="board/board.settings.gradle.kts")
+apply(from ="core/core.settings.gradle.kts")
