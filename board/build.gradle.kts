@@ -11,4 +11,6 @@ dependencies {
     // modules
     api(project(":board:api"))
     api(project(":board:application"))
+    api(project(":board:driven"))
+    api(project(":board:commons"))
 }

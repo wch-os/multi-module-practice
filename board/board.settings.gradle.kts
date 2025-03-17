@@ -11,9 +11,13 @@ include(
 
     // "board" 모듈의 하위 모듈로 관리
     "board:api",
-    "board:application"
+    "board:application",
+    "board:driven",
+    "board:commons"
 )
 
 project(":board").projectDir = board["board"]!!
 project(":board:api").projectDir = board["api"]!!
 project(":board:application").projectDir = board["application"]!!
+project(":board:driven").projectDir = board["driven"]!!
+project(":board:commons").projectDir = board["common"]!!
