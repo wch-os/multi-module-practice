@@ -1,11 +1,9 @@
 plugins {
-    java
+    id("java")
+    id("java-library")
     id("org.springframework.boot") version "3.4.3"
     id("io.spring.dependency-management") version "1.1.7"
 }
-
-group = "org.example"
-version = "0.0.1-SNAPSHOT"
 
 java {
     toolchain {
@@ -13,11 +11,12 @@ java {
     }
 }
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
+    // module
+    api(project(":board")) // board 모듈의 build.gradle.kts 파일을 참조한다.
+    implementation(project(":common"))
+    implementation(project(":core"))
+
     implementation("org.springframework.boot:spring-boot-starter-web")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
