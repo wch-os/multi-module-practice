@@ -4,12 +4,6 @@ plugins {
     id("io.spring.dependency-management") version "1.1.7"
 }
 
-group = "org.example"
-
-repositories {
-    mavenCentral()
-}
-
 dependencies {
     // spring
     implementation("org.springframework.boot:spring-boot-starter-web")
