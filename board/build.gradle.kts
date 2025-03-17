@@ -1,18 +1,14 @@
 plugins {
     id("java")
+    id("java-library")
+    id("org.springframework.boot") version "3.4.1"
+    id("io.spring.dependency-management") version "1.1.7"
 }
 
-group = "org.example"
-
-repositories {
-    mavenCentral()
-}
+version = "1.0-SNAPSHOT"
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.10.0"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
-}
-
-tasks.test {
-    useJUnitPlatform()
+    // modules
+    api(project(":board:api"))
+    api(project(":board:application"))
 }

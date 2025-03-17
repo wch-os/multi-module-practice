@@ -1,10 +1,9 @@
 rootProject.name = "multi-module-practice"
-include("board",
+include(
     "monolithic",
     "common",
     "core",
-    "board:api",
-    "board:application"
+    "board",
 )
-findProject(":board:api")?.name = "api"
-findProject(":board:application")?.name = "application"
+
+apply(from ="board/board.settings.gradle.kts")
