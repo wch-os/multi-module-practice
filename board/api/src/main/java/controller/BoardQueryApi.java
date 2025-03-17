@@ -1,13 +1,11 @@
 package controller;
 
+import domain.type.BoardStatus;
 import java.util.Set;
 import lombok.RequiredArgsConstructor;
-import me.nettee.board.adapter.driving.web.dto.BoardQueryDto.BoardDetailResponse;
-import me.nettee.board.adapter.driving.web.mapper.BoardDtoMapper;
-import me.nettee.board.application.domain.type.BoardStatus;
-import me.nettee.board.application.model.BoardQueryModels.BoardSummary;
-import me.nettee.board.application.usecase.BoardReadByStatusesUseCase;
-import me.nettee.board.application.usecase.BoardReadUseCase;
+import model.BoardQueryModels.BoardSummary;
+import model.dto.BoardQueryDto.BoardDetailResponse;
+import model.mapper.BoardDtoMapper;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,6 +13,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import usecase.BoardReadByStatusesUseCase;
+import usecase.BoardReadUseCase;
 
 @RestController
 @RequestMapping("/api/v1/boards")

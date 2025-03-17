@@ -2,6 +2,10 @@ package controller;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import model.dto.BoardCommandDto.BoardCommandResponse;
+import model.dto.BoardCommandDto.BoardCreateCommand;
+import model.dto.BoardCommandDto.BoardUpdateCommand;
+import model.mapper.BoardDtoMapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -11,6 +15,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
+import usecase.BoardCreateUseCase;
+import usecase.BoardDeleteUseCase;
+import usecase.BoardUpdateUseCase;
 
 @RestController
 @RequestMapping("/api/v1/boards")
