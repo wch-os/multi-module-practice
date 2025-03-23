@@ -1,0 +1,19 @@
+spring:
+  datasource:
+#    url: jdbc:h2:mem:testdb
+#    jdbc:h2:file:~/multi-module (첫 연결 시, 로컬에서 DB 생성)
+    url: jdbc:h2:tcp://localhost/~/multi-module
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true

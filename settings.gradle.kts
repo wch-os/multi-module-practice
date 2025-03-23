@@ -1,10 +1,10 @@
 rootProject.name = "multi-module-practice"
 include(
-    "monolithic",
+    "board-server",
     "common",
-    "core",
-    "board",
+    "core"
 )
 
-apply(from ="board/board.settings.gradle.kts")
+project(":board-server").projectDir = file("monolithic/board-server")
+apply(from ="services/board/board.settings.gradle.kts")
 apply(from ="core/core.settings.gradle.kts")
