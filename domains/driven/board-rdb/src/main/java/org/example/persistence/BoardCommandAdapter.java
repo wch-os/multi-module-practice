@@ -1,7 +1,6 @@
 package org.example.persistence;
 
 import static org.example.exception.BoardCommandErrorCode.BOARD_NOT_FOUND;
-import static org.example.exception.BoardCommandErrorCode.DEFAULT;
 
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;
@@ -10,7 +9,6 @@ import org.example.model.domain.BoardStatus;
 import org.example.persistence.entity.type.BoardEntityStatus;
 import org.example.persistence.mapper.BoardEntityMapper;
 import org.example.port.BoardCommandPort;
-import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Repository;
 
 @Repository

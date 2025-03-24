@@ -13,8 +13,7 @@ java {
 
 dependencies {
     // module
-    api(project(":board")) // board 모듈의 build.gradle.kts 파일을 참조한다.
-    implementation(project(":common"))
+    implementation(project(":board-application"))
     implementation(project(":core"))
 
     runtimeOnly("com.h2database:h2")

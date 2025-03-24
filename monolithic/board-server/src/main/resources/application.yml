@@ -1,8 +1,8 @@
 spring:
   datasource:
-#    url: jdbc:h2:mem:testdb
+    url: jdbc:h2:mem:testdb
 #    jdbc:h2:file:~/multi-module (첫 연결 시, 로컬에서 DB 생성)
-    url: jdbc:h2:tcp://localhost/~/multi-module
+#    url: jdbc:h2:tcp://localhost/~/multi-module
     driver-class-name: org.h2.Driver
     username: sa
     password:

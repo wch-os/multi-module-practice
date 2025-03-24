@@ -7,7 +7,8 @@ plugins {
 
 dependencies {
     // modules
-    api(project(":board:board:board-domain"))
+    api(project(":board"))
+    api(project(":board-rdb"))
 
     // spring
     implementation("org.springframework.boot:spring-boot-starter-web")
